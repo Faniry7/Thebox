@@ -35,6 +35,10 @@ header {
     color: #F9995D;
 }
 
+/*main*/
+
+/*hero*/
+
 .thebox-hero {
     background-image: url(Hero.png);
     background-repeat: no-repeat;
@@ -43,6 +47,7 @@ header {
     margin-top: 16.5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-size: cover;
 }
 
 
@@ -93,7 +98,8 @@ h5 {
     align-items: center;
     justify-content: center;
     color: #fff;
-    margin-top: 4%;
+    margin-top: 6%;
+    writing-mode: horizontal-tb;
 }
 
 .thebox-option-content {
@@ -109,6 +115,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 38px;
 }
 
 .content-next {
@@ -118,7 +125,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 38px;
+    height: 37px;
 }
 
 .hero-text {
@@ -127,6 +134,8 @@ h5 {
     font-weight: 400;
     text-align: center;
 }
+
+/*section highlight*/
 
 .subtitle {
     font-size: 36px;
@@ -186,6 +195,7 @@ h5 {
 
 .second-highlight {
     margin-top: 84px;
+
 }
 
 .s-h-wrap {
@@ -193,6 +203,7 @@ h5 {
     position: relative;
     align-items: center;
     justify-content: center;
+
 }
 
 
@@ -247,7 +258,7 @@ h5 {
     margin-left: 40px;
 }
 
-
+/*section push*/
 .push-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -278,7 +289,7 @@ h5 {
 }
 
 .push-icon {
-    width: 40px;
+    width: 25%;
     height: 40px;
     margin-left: 100px;
     margin-top: 20px;
@@ -356,13 +367,18 @@ h5 {
     margin-left: 32px;
 }
 
+/*section pub*/
 
+.pub {
+    margin-top: 51px;
+}
 
 .banner-pub {
     width: 100%;
     height: 300px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(unsplash_MP0bgaS_d1c.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
@@ -372,6 +388,7 @@ h5 {
 .pub-content {
     grid-column: span 2 / span 2;
     padding-left: 12%;
+    margin-top: 13%;
 }
 
 .pub-text {
@@ -381,10 +398,6 @@ h5 {
     color: #fff;
     width: 150%;
 
-}
-
-.pub-content {
-    margin-top: 13%;
 }
 
 .pub-content p {
@@ -413,6 +426,8 @@ a {
     color: #fff;
     font-size: 15px;
 }
+
+/*section article*/
 
 .article {
     display: grid;
@@ -565,6 +580,8 @@ a {
     gap: 40px;
 }
 
+/*section newsletter*/
+
 .newsletter {
     width: 100%;
     background: #F6F8F7;
@@ -703,6 +720,7 @@ a {
     font-size: 18px;
 }
 
+/*section footer*/
 
 .info-page {
     display: grid;
@@ -794,4 +812,957 @@ a {
     padding-left: 112px;
     padding-top: 26px;
     color: #fff;
+}
+
+@media (max-width: 1920px) {
+    /*header*/
+
+    header {
+        width: 100%;
+    }
+
+    .nav-list {
+        margin-left: 70px;
+    }
+
+    .nav-list a {
+        font-size: 30px;
+
+    }
+
+    /*main*/
+
+    .big-title {
+        font-size: 70px;
+    }
+
+    .thebox-hero {
+        background-image: url(Hero.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    h5 {
+        font-size: 35px;
+        line-height: 20px;
+    }
+
+    .h-card {
+        border: solid #E0E3EB 5px;
+    }
+
+    .content-back {
+        height: 51px;
+
+        margin-top: 35px;
+    }
+
+    .content-next {
+        height: 52px;
+        margin-top: 35px;
+    }
+
+    .subtitle {
+        font-size: 50px;
+    }
+
+    .h-title {
+        font-size: 30px;
+    }
+
+    .h-text {
+        font-size: 20px;
+    }
+
+    .s-h-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 200px;
+    }
+
+    #card1 {
+        position: relative;
+    }
+
+    #card2 {
+        position: absolute;
+        margin-right: 250px;
+        margin-top: 0px;
+    }
+
+    .info-text {
+        height: 200px;
+        border-radius: 2px;
+    }
+
+    .info-text p {
+        font-size: 20px;
+    }
+
+
+    .info-button {
+        margin-top: 30px;
+    }
+
+    .push-icon {
+        margin-left: 125px;
+        margin-top: 40px;
+    }
+
+    .push-card2 {
+        height: 250px;
+    }
+
+    .push-card1 {
+        height: 250px;
+    }
+
+    .description1 {
+        margin-top: 70px;
+    }
+
+    .description2 {
+        margin-top: 70px;
+    }
+
+    .push {
+        margin-left: 200px;
+    }
+
+    #content-text {
+        margin-left: 150px;
+    }
+
+    .s-p-text {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .text p {
+        margin-top: 30px;
+        font-size: 27px;
+        width: 55%;
+        height: 180px;
+        line-height: 30px;
+    }
+
+    .contact-button {
+        margin-left: 0;
+    }
+
+    .pub-content {
+        margin-top: 130px;
+    }
+
+    .pub-text {
+        font-size: 40px;
+    }
+
+    .pub-content p {
+        font-size: 30px;
+    }
+
+    .content-article2 {
+        margin-top: 17px;
+    }
+
+    .article-text1 {
+        width: 76%;
+        height: 100px;
+    }
+
+    .article-text1 p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .article-text2 {
+        width: 89%;
+        height: 100px;
+    }
+
+    .article-text2 p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #box {
+        margin-top: 29%;
+    }
+
+    .text-scroll a {
+        font-size: 35spx;
+    }
+
+    .article-text1 h5 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .article-text1 p {
+        font-size: 25px;
+    }
+
+    .article-text2 h5 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .article-text2 p {
+        font-size: 25px;
+    }
+
+    .next {
+        display: flex;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    .row {
+        margin-top: 20px;
+    }
+
+    .news-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .news-text {
+        font-size: 25px;
+        line-height: 15px;
+    }
+
+    /*footer*/
+    .info {
+        font-size: 30px;
+    }
+
+    .second-news span {
+        font-size: 30px;
+    }
+
+    [placeholder] {
+        font-size: 20px;
+    }
+
+    .thebox-copy span {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    /*header*/
+    .nav-list a {
+        font-size: 25px;
+    }
+
+    .big-title {
+        font-size: 56px;
+        margin-top: 30%;
+        width: 80%;
+    }
+
+    /*main*/
+
+
+    .thebox-option h5 {
+        line-height: 15px;
+    }
+
+    .option-content p {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .content-back {
+        margin-top: 18px;
+        margin-right: 0;
+    }
+
+    .content-next {
+        margin-top: 17px;
+    }
+
+    .subtitle {
+        font-size: 40px;
+    }
+
+    .h-text p {
+        margin-top: 30px;
+    }
+
+    .s-h-wrap {
+        margin-left: 80px;
+    }
+
+    .s-h-card {
+        margin-right: 140px;
+    }
+
+    .info-text p {
+        font-size: 18px;
+    }
+
+    .info-button {
+        margin-top: 60px;
+    }
+
+    .push-wrap {
+        gap: 60px;
+        margin-right: 100px;
+    }
+
+    .push-card1 {
+        width: 70%;
+    }
+
+    .push-card2 {
+        width: 70%;
+    }
+
+    .description1 {
+        margin-top: 55px;
+    }
+
+    .description2 {
+        margin-top: 55px;
+    }
+
+    .push {
+        margin-left: 50px;
+    }
+
+    #content-text {
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+
+    .s-p-text {
+        font-size: 50px;
+        line-height: 50px;
+        width: 70%;
+    }
+
+    .text p {
+        height: 200px;
+        width: 65%;
+    }
+
+    .pub-content {
+        margin-bottom: 120px;
+
+    }
+
+    .pub-text {
+        font-size: 40px;
+    }
+
+    .pub-content p {
+        font-size: 25px;
+    }
+
+    .content-article2 {
+        margin-top: 54px;
+    }
+
+    .article-text1 {
+        width: 100%;
+    }
+
+    .article-text2 {
+        width: 119%;
+    }
+
+    .row {
+        margin-top: 25px;
+    }
+
+    .next {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 38px;
+    }
+
+}
+
+@media(max-width:1326px) {
+
+
+    /*header*/
+    .nav-list a {
+        font-size: 20px;
+    }
+
+    .big-title {
+        font-size: 53px;
+        margin-top: 200px;
+    }
+
+    /*main*/
+    .content-back {
+        margin-top: 21px;
+        margin-right: 0;
+    }
+
+    .content-next {
+        margin-top: 20px;
+    }
+
+    .subtitle {
+        font-size: 36px;
+    }
+
+    .h-text p {
+        margin-top: 30px;
+    }
+
+    .s-h-wrap {
+        margin-left: 60px;
+    }
+
+
+
+    .info-text p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .info-button {
+        margin-top: 60px;
+    }
+
+    .push-card1 {
+        height: 230px;
+    }
+
+    .push-card2 {
+        height: 230px;
+    }
+
+    .text p {
+        width: 70%;
+    }
+
+    .pub-text {
+        font-size: 40px;
+    }
+
+    .pub-content p {
+        font-size: 25px;
+    }
+
+    .content-article2 {
+        margin-top: 65px;
+    }
+
+    .article-text1 {
+        width: 109%;
+    }
+
+    .article-text2 {
+        width: 126%;
+    }
+
+    .next {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .article-text1 h5 {
+        font-size: 25px;
+    }
+
+    .article-text1 p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .article-text2 h5 {
+        font-size: 25px;
+    }
+
+    .article-text2 p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+
+
+@media(max-width:1280px) {
+
+    /*header*/
+    .nav-list a {
+        font-size: 18px;
+    }
+
+    .big-title {
+        font-size: 50px;
+        margin-top: 300px;
+    }
+
+    /*main*/
+    .thebox-option h5 {
+        font-size: 26px;
+        line-height: 21px;
+    }
+
+    .thebox-option p {
+        font-size: 25px;
+    }
+
+    .content-back {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .content-next {
+        margin-top: 19px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .h-title {
+        font-size: 20px;
+    }
+
+    .h-text p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .s-h-wrap {
+        margin-left: 50px;
+    }
+
+    .info-text p {
+        font-size: 16px;
+    }
+
+    .info-button {
+        margin-top: 30px;
+    }
+
+
+    .description1 {
+        font-size: 18px;
+    }
+
+    .description2 {
+        font-size: 18px;
+    }
+
+    .s-p-text {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .text p {
+        font-size: 25px;
+        margin-bottom: 30px;
+        height: 150px;
+    }
+
+    .contact-button {
+        margin-top: 40px;
+    }
+
+    .pub-text {
+        font-size: 40px;
+    }
+
+    .pub-content p {
+        font-size: 20px;
+    }
+
+
+
+    .content-article2 {
+        margin-top: 70px;
+    }
+
+    .article-text1 {
+        width: 113%;
+        height: 85px;
+    }
+
+    .article-text2 {
+        width: 133%;
+        height: 85px;
+    }
+
+    .next {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .article-text1 h5 {
+        font-size: 25px;
+        line-height: 10px;
+    }
+
+    .article-text1 p {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .article-text2 h5 {
+        font-size: 25px;
+    }
+
+    .article-text2 p {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media(max-width:1024px) {
+
+    /*header*/
+    .nav-list a {
+        font-size: 18px;
+    }
+
+    .big-title {
+        width: 100%;
+        font-size: 46px;
+        margin-top: 300px;
+    }
+
+    /*main*/
+    .thebox-option h5 {
+        font-size: 20px;
+        line-height: 37px;
+    }
+
+    .option-content p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .content-back {
+        margin-top: 21px;
+        margin-right: 0;
+    }
+
+    .content-next {
+        margin-top: 20px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .h-title {
+        font-size: 20px;
+    }
+
+    .h-text p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .s-h-wrap {
+        margin-left: 0;
+    }
+
+    #card1 {
+        display: flex;
+        margin-right: 155px;
+    }
+
+    #card2 {
+        margin-right: 250px;
+    }
+
+    .info-button {
+        margin-top: 50px;
+    }
+
+    .push-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+        margin-right: 100px;
+    }
+
+    .push-card1 {
+        width: 80%;
+        height: 200px;
+    }
+
+    .push-card2 {
+        width: 80%;
+        height: 200px;
+    }
+
+    .push-icon {
+        margin-right: 80px;
+    }
+
+    .description1 {
+        margin-top: 45px;
+    }
+
+    .description2 {
+        margin-top: 45px;
+    }
+
+    .s-p-wrap {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .s-p-content {
+
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    #content-text {
+        margin-left: 200px;
+    }
+
+    .s-p-text {
+        width: 50%;
+        font-size: 50px;
+        margin-left: 60px;
+    }
+
+    .s-p-text p {
+        font-size: 25px;
+
+    }
+
+    .contact-button {
+        margin-left: 150px;
+    }
+
+    .pub-text {
+        font-size: 30px;
+    }
+
+    .pub-content p {
+        font-size: 18px;
+    }
+
+    .article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article-scroll {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one {
+        margin-left: 40px;
+    }
+
+    .content-article2 {
+        margin-top: 52px;
+    }
+
+    .article-text1 {
+        width: 98%;
+    }
+
+    .article-text2 {
+        width: 115%;
+    }
+
+}
+
+@media(max-width:768px) {
+    header {
+        display: block;
+    }
+
+    .header-logo {
+        margin-left: 40%;
+    }
+
+    .nav-list {
+        margin-top: 20px;
+    }
+
+    .nav-list a {
+        margin-left: 40px;
+    }
+
+    .big-title {
+        font-size: 36px;
+
+    }
+
+    .thebox-option {
+        width: 200%;
+    }
+
+
+    .thebox-option h5 {
+        line-height: 45px;
+    }
+
+    .h-card {
+        height: auto;
+    }
+
+    .h-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #card1 {
+        display: contents;
+    }
+
+    #card2 {
+        width: 70%;
+        height: 400px;
+        margin-top: 100%;
+        margin-right: 110%;
+        border: solid #2947A9 5px;
+    }
+
+    .info-text {
+        height: auto;
+    }
+
+    .thebox-push {
+        margin-top: 50%;
+    }
+
+    .s-p-wrap {
+        margin-top: 20%;
+    }
+
+    .s-p-content {
+        margin: 0;
+    }
+
+    #content-text {
+        padding: 0;
+        margin: 0;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+
+
+
+    .pub-text {
+        width: 95%;
+        line-height: 30px;
+    }
+
+    .one {
+        margin: 0;
+    }
+
+    .article-text1 {
+        width: 81%;
+    }
+
+    .article-text1 h5 {
+        font-size: 20px;
+    }
+
+    .article-text1 p {
+        font-size: 18px;
+    }
+
+    .article-text2 {
+        width: 94%;
+    }
+
+    .article-text2 h5 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 15px;
+
+    }
+
+    #h5 {
+        margin: 0;
+        line-height: 15px;
+    }
+
+    .article-text2 p {
+        font-size: 18px;
+    }
+
+    .article-card1 img {
+        width: 80%;
+        border-radius: 3px;
+    }
+
+    #card-box img {
+        width: 93%;
+        border-radius: 3px;
+    }
+
+    #box img {
+        width: 93%;
+        border-radius: 3px
+    }
+
+    .article-text1 {
+        border-radius: 3px;
+    }
+
+    .article-text2 {
+        border-radius: 3px;
+    }
+
+    .content-article2 {
+        margin-top: 86px;
+    }
+
+    .row {
+        margin: 0;
+        padding-right: 5%;
+    }
+
+    .news-title {
+        font-size: 36px;
+    }
+
+    .news-text p {
+        font-size: 20px;
+        line-height: 8px;
+    }
+
+    [placeholder] {
+        font-size: 16px;
+    }
+
+    .info-page {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .second-news {
+        margin-left: 15%;
+    }
+
+    .info li {
+        font-size: 25px;
+    }
+
+    .thebox-copy span {
+        font-size: 20px;
+    }
 }
